@@ -5,6 +5,6 @@ int main (int argc,char**argv){
                 return 0;
         else
                 for(int x=1; x<argc;x++){
-                        sum = sum+atoi(argv[s]);
+                        sum = sum+atoi(argv[x]);
                 }
         return sum;}
